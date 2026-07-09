@@ -3,9 +3,9 @@
 
 **Update:** The mainframe has been pre-configured. All student sectors (folders) have been pre-initialized on the server. You **do not** need to create your own folder. 
 
-**Strictly follow these streamlined steps to upload your project assets:**
+## Strictly follow these streamlined steps to upload your project assets:
 
-### Step 1: Clone the Mainframe
+**Step 1: Clone the Mainframe**
 1. Open VS Code and launch a new Terminal (`Ctrl` + `` ` ``).
 2. Download the repository to your local machine:
    git clone  https://github.com/D-One98/CC_AWS_607.git
@@ -21,20 +21,25 @@
 1. Open the VS Code terminal again (ensure you are operating inside the main project directory).
 2. Run these commands sequentially to authorize and upload your data to the server:
 
-**Bash**
+# Bash
 
-# Stage your new files for upload
+_Stage your new files for upload_
+
 git add .
 
-# Log your changes into the system
+_Log your changes into the system_
+
 git commit -m "docs: Uploaded project screenshots for [Your Name]"
 
-# Sync with the mainframe to prevent override conflicts with other students
+_Sync with the mainframe to prevent override conflicts with other students_
+
 git pull origin main
 
-# Push your data to the remote server
+_Push your data to the remote server_
+
 git push origin main
 
+## Students-Name-List
 
 | S.N | Campus ID | Univ Roll No | Student Name | Branch | Status Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
