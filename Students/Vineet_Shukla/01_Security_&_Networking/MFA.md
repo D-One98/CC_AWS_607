@@ -19,12 +19,3 @@ MFA adds a second layer of authentication on top of the password — a rotating 
 * **Users protected:** Root user + IAM user `vineet-admin`
 * **Backup:** QR-code screenshot / recovery codes stored offline
 
-## 4. Implementation Proof & Verification
-> [!NOTE]
-> Below are the visual confirmations of the successful setup and configuration.
-
-### Screenshots to capture
-* **`mfa_config.png`** — The **Security credentials** tab of the IAM user showing the MFA device row with status **Assigned** and the device name visible (the secret/QR code itself should NOT be in the screenshot).
-* **`mfa_active.png`** — The AWS **sign-in page prompting for the MFA code** (the "Additional verification required" screen) taken during a fresh login, proving MFA is enforced.
-
-*(Optional video: a 15-second screen recording of a fresh login showing password → MFA prompt → dashboard.)*

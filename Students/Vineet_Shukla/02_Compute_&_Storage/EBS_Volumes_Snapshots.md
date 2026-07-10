@@ -33,7 +33,4 @@ EBS (Elastic Block Store) provides persistent block-level storage volumes that a
 > Below are the visual confirmations of the successful setup and configuration.
 
 ### Screenshots to capture
-* **`ebs_volumes_snapshots_config.png`** — The **Volumes** page showing `Vineet-Data-Vol` in **in-use** state attached to the correct instance ID, and the **Snapshots** page showing the snapshot with status **completed**. (Two-in-one screenshot is fine, or take two.)
-* **`ebs_volumes_snapshots_active.png`** — The **SSH terminal** showing `df -h` output with `/data` mounted and `cat /data/hello.txt` returning `test` — proves the volume is actually usable from the OS.
-
-*(Optional video: end-to-end recording of attach → format → mount → snapshot → snapshot completed.)*
+![alt text](../Screenshort/ebs.png)

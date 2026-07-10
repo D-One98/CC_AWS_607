@@ -19,12 +19,5 @@ An Elastic IP (EIP) is a **static, public IPv4 address** that you own on your AW
 * **Region:** `ap-south-1` (Mumbai)
 * **Post-lab action:** Released to avoid idle charges
 
-## 4. Implementation Proof & Verification
-> [!NOTE]
-> Below are the visual confirmations of the successful setup and configuration.
-
-### Screenshots to capture
-* **`elastic_ip_config.png`** — The **Elastic IPs** list showing the allocated address, its allocation ID, and the associated instance ID in the same row.
-* **`elastic_ip_active.png`** — The **EC2 instance summary page** showing the **Public IPv4 address** equal to the Elastic IP, ideally captured **after a stop/start cycle** to prove the IP did not change.
-
-*(Optional video: stop the instance, wait for it to start again, and record the public IP staying the same.)*
+### Screenshots 
+![alt text](../Screenshort/EIP.png) 

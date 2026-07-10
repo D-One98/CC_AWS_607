@@ -37,7 +37,4 @@ EC2 provides resizable virtual machines ("instances") in the cloud. During the i
 > Below are the visual confirmations of the successful setup and configuration.
 
 ### Screenshots to capture
-* **`ec2_config.png`** — The **Instances** page showing the row for `Vineet-WebServer` with state **Running**, 2/2 status checks, and its public IPv4 visible.
-* **`ec2_active.png`** — A **browser window** opened at `http://<public-ip>/` showing the "Hello from Vineet's EC2" page. This proves the instance + security group + user data all worked.
-
-*(Optional video: a screen recording of clicking Launch → instance transitioning to Running → the browser loading the Hello page.)*
+<video controls src="../Screenshort/Screen Recording 2026-07-06 145322.mp4" title="Title"></video>

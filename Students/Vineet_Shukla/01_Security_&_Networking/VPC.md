@@ -21,12 +21,7 @@ A VPC is a logically isolated virtual network inside AWS where all your EC2 inst
 * **Route tables:** Public RT (0.0.0.0/0 → IGW), Private RT (local only)
 * **DNS hostnames / resolution:** Enabled
 
-## 4. Implementation Proof & Verification
-> [!NOTE]
-> Below are the visual confirmations of the successful setup and configuration.
+
 
 ### Screenshots to capture
-* **`vpc_config.png`** — The **Resource map** view of the VPC (VPC → your VPC → Resource map tab) that visually shows the VPC, both AZs, public/private subnets, route tables, and the internet gateway all connected.
-* **`vpc_active.png`** — The **Subnets** list filtered to `Vineet-VPC` showing all 4 subnets in the `Available` state with their CIDRs and AZs.
-
-*(Optional video: a short recording panning across the Resource map or clicking into a route table to show the `0.0.0.0/0 → igw` entry.)*
+![alt text](<../Screenshort/Screenshot 2026-07-03 202547.png>)

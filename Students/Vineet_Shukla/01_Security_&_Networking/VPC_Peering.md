@@ -20,12 +20,6 @@ VPC Peering creates a private, one-to-one network connection between two VPCs so
 * **Routes added:** A → B via `pcx-...`, B → A via `pcx-...`
 * **Security groups:** ICMP allowed from the peer CIDR for the ping test
 
-## 4. Implementation Proof & Verification
-> [!NOTE]
-> Below are the visual confirmations of the successful setup and configuration.
 
-### Screenshots to capture
-* **`vpc_peering_config.png`** — The **Peering connections** page showing `Vineet-Peering` with status **Active**, and the requester/accepter VPC IDs + CIDRs visible.
-* **`vpc_peering_active.png`** — A **terminal / SSH window on the EC2 in VPC A** successfully running `ping <private-IP-of-EC2-in-VPC-B>` with replies coming back. This is the proof that the peering actually works end-to-end.
-
-*(Optional video: 30-second recording of running the ping from one instance to the other and showing the route table entry with the `pcx-...` target.)*
+### Capture's
+<video controls src="../Screenshort/Vineet-VPC-Peering.mp4" title="Title"></video>
