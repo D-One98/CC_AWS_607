@@ -24,8 +24,5 @@ AWS IAM is the service that controls **who (users/roles) can do what (permission
 > [!NOTE]
 > Below are the visual confirmations of the successful setup and configuration.
 
-### Screenshots to capture
-* **`iam_config.png`** — The **IAM → Users** list page showing the newly created user (`vineet-admin`) with the attached policy/group visible in the row.
-* **`iam_active.png`** — A screenshot taken **after signing in as the IAM user** (top-right of console shows the IAM username @ account ID) proving the credentials work.
-
-*(Optional video: a 20–30 second screen recording of the create-user wizard from "Create user" through the final success screen.)*
+### Screenshots 
+![!\[alt text\](<Screenshot 2026-07-10 100225.png>)](<../Screenshort/Screenshot 2026-07-10 100225.png>)
